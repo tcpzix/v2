@@ -1,0 +1,58 @@
+{
+
+  "log": {
+
+    "loglevel": "warning"
+
+  },
+
+  "inbounds": [{
+
+    "port": 80,
+
+    "protocol": "vmess",
+
+    "settings": {
+
+      "clients": [
+
+        {
+
+          "id": "bbe7d333-2620-48ef-9fbb-cef4ebb86c8c",
+
+          "level": 1,
+
+          "alterId": 64,
+
+          "name": "main"
+
+        }
+
+      ]
+
+    },
+
+    "streamSettings": {
+
+      "network": "ws",
+
+      "wsSettings": {
+
+        "path": "/tcpzix"
+
+      }
+
+    }
+
+  }],
+
+  "outbounds": [{
+
+    "protocol": "freedom",
+
+    "settings": {}
+
+  }]
+
+}
+
